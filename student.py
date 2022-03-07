@@ -11,6 +11,6 @@ class Student:
         self.naughty_list = False
 
 
-        @property
-        def full_name(self):
-            return f"{self._first_name} {self._last_name}"
+    @property
+    def full_name(self):
+        return f"{self._first_name} {self._last_name}"
